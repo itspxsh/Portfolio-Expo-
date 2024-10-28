@@ -46,7 +46,7 @@ window.addEventListener('click', () => {
 const sr = ScrollReveal({
     origin: 'top',
     distance: '70px',
-    duration: 1500,
+    duration: 3000,
     delay: 50,
     reset: true,
 })

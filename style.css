@@ -790,7 +790,7 @@ ul.rb li .timestamp {
 }
 
 /* about */
-.about-content h2 {
+/* .about-content h2 {
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
@@ -806,7 +806,7 @@ ul.rb li .timestamp {
     animation: left-side linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
-}
+} */
 /*about*/
 
 /*education*/

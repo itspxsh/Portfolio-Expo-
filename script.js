@@ -1,3 +1,4 @@
+/* cursor start*/
 const cursor = document.querySelector(".cursor");
 let timeout;
 
@@ -33,11 +34,30 @@ buttons.forEach(button => {
         cursor.style.backgroundColor = "red"; // Reset color when leaving
     });
 });
+/* cursor start*/
 
-//audio
+/* audio start */
 window.addEventListener('click', () => {
     document.getElementById("song").play()
 });
+/* audio start */
+
+/* scroll reveal animation start */
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '70px',
+    duration: 1500,
+    delay: 50,
+    reset: true,
+})
+
+sr.reveal('.about-content h2')
+sr.reveal('.about-content p', {origin: 'right', delay: 100})
+sr.reveal('.about-img', {origin: 'left', delay: 300})
+/* scroll reveal animation start */
+
+
+
 
 // import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
 
